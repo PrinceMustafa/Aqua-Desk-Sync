@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Aqua_Desk_Sync
 {
-    public partial class Form1 : Form
+    public partial class Sync : Form
     {
-        public Form1()
+        public Sync()
         {
             InitializeComponent();
+        }
+
+        private void Sync_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
