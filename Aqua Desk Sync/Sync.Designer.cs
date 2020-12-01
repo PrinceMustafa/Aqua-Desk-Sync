@@ -37,15 +37,15 @@ namespace Aqua_Desk_Sync
             this.lblAppName = new Guna.UI.WinForms.GunaLabel();
             this.GunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.GunaPanel2 = new Guna.UI.WinForms.GunaPanel();
-            this.nav_settings = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.nav_history = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.nav_profile = new Guna.UI.WinForms.GunaAdvenceButton();
             this.nav_home = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaPictureBox4 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaPictureBox3 = new Guna.UI.WinForms.GunaPictureBox();
             this.GunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
             this.GunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.gunaAdvenceButton3 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.GunaPanel1.SuspendLayout();
             this.GunaPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox4)).BeginInit();
@@ -74,6 +74,7 @@ namespace Aqua_Desk_Sync
             // 
             // GunaButton1
             // 
+            this.GunaButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.GunaButton1.Animated = true;
             this.GunaButton1.AnimationHoverSpeed = 0.07F;
             this.GunaButton1.AnimationSpeed = 0.03F;
@@ -87,7 +88,7 @@ namespace Aqua_Desk_Sync
             this.GunaButton1.ForeColor = System.Drawing.Color.White;
             this.GunaButton1.Image = null;
             this.GunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.GunaButton1.Location = new System.Drawing.Point(632, 10);
+            this.GunaButton1.Location = new System.Drawing.Point(647, 10);
             this.GunaButton1.Name = "GunaButton1";
             this.GunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
             this.GunaButton1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
@@ -102,9 +103,10 @@ namespace Aqua_Desk_Sync
             // 
             // GunaVSeparator1
             // 
+            this.GunaVSeparator1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.GunaVSeparator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.GunaVSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(80)))), ((int)(((byte)(108)))));
-            this.GunaVSeparator1.Location = new System.Drawing.Point(724, 9);
+            this.GunaVSeparator1.Location = new System.Drawing.Point(739, 9);
             this.GunaVSeparator1.Name = "GunaVSeparator1";
             this.GunaVSeparator1.Size = new System.Drawing.Size(10, 32);
             this.GunaVSeparator1.TabIndex = 4;
@@ -127,123 +129,15 @@ namespace Aqua_Desk_Sync
             // GunaPanel2
             // 
             this.GunaPanel2.BackColor = System.Drawing.Color.White;
-            this.GunaPanel2.Controls.Add(this.nav_settings);
-            this.GunaPanel2.Controls.Add(this.nav_history);
-            this.GunaPanel2.Controls.Add(this.nav_profile);
+            this.GunaPanel2.Controls.Add(this.gunaAdvenceButton3);
+            this.GunaPanel2.Controls.Add(this.gunaAdvenceButton2);
+            this.GunaPanel2.Controls.Add(this.gunaAdvenceButton1);
             this.GunaPanel2.Controls.Add(this.nav_home);
             this.GunaPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.GunaPanel2.Location = new System.Drawing.Point(0, 55);
             this.GunaPanel2.Name = "GunaPanel2";
             this.GunaPanel2.Size = new System.Drawing.Size(880, 45);
             this.GunaPanel2.TabIndex = 3;
-            // 
-            // nav_settings
-            // 
-            this.nav_settings.Animated = true;
-            this.nav_settings.AnimationHoverSpeed = 0.07F;
-            this.nav_settings.AnimationSpeed = 0.03F;
-            this.nav_settings.BaseColor = System.Drawing.Color.White;
-            this.nav_settings.BorderColor = System.Drawing.Color.Black;
-            this.nav_settings.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.nav_settings.CheckedBaseColor = System.Drawing.Color.White;
-            this.nav_settings.CheckedBorderColor = System.Drawing.Color.Black;
-            this.nav_settings.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_settings.CheckedImage = null;
-            this.nav_settings.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
-            this.nav_settings.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.nav_settings.Dock = System.Windows.Forms.DockStyle.Left;
-            this.nav_settings.FocusedColor = System.Drawing.Color.Empty;
-            this.nav_settings.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.nav_settings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_settings.Image = null;
-            this.nav_settings.ImageSize = new System.Drawing.Size(20, 20);
-            this.nav_settings.LineBottom = 4;
-            this.nav_settings.LineColor = System.Drawing.Color.White;
-            this.nav_settings.Location = new System.Drawing.Point(336, 0);
-            this.nav_settings.Name = "nav_settings";
-            this.nav_settings.OnHoverBaseColor = System.Drawing.Color.White;
-            this.nav_settings.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.nav_settings.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_settings.OnHoverImage = null;
-            this.nav_settings.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
-            this.nav_settings.OnPressedColor = System.Drawing.Color.Black;
-            this.nav_settings.OnPressedDepth = 0;
-            this.nav_settings.Size = new System.Drawing.Size(112, 45);
-            this.nav_settings.TabIndex = 3;
-            this.nav_settings.Text = "Settings";
-            this.nav_settings.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // nav_history
-            // 
-            this.nav_history.Animated = true;
-            this.nav_history.AnimationHoverSpeed = 0.07F;
-            this.nav_history.AnimationSpeed = 0.03F;
-            this.nav_history.BaseColor = System.Drawing.Color.White;
-            this.nav_history.BorderColor = System.Drawing.Color.Black;
-            this.nav_history.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.nav_history.CheckedBaseColor = System.Drawing.Color.White;
-            this.nav_history.CheckedBorderColor = System.Drawing.Color.Black;
-            this.nav_history.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_history.CheckedImage = null;
-            this.nav_history.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
-            this.nav_history.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.nav_history.Dock = System.Windows.Forms.DockStyle.Left;
-            this.nav_history.FocusedColor = System.Drawing.Color.Empty;
-            this.nav_history.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.nav_history.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_history.Image = null;
-            this.nav_history.ImageSize = new System.Drawing.Size(20, 20);
-            this.nav_history.LineBottom = 4;
-            this.nav_history.LineColor = System.Drawing.Color.White;
-            this.nav_history.Location = new System.Drawing.Point(224, 0);
-            this.nav_history.Name = "nav_history";
-            this.nav_history.OnHoverBaseColor = System.Drawing.Color.White;
-            this.nav_history.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.nav_history.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_history.OnHoverImage = null;
-            this.nav_history.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
-            this.nav_history.OnPressedColor = System.Drawing.Color.Black;
-            this.nav_history.OnPressedDepth = 0;
-            this.nav_history.Size = new System.Drawing.Size(112, 45);
-            this.nav_history.TabIndex = 2;
-            this.nav_history.Text = "History";
-            this.nav_history.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // nav_profile
-            // 
-            this.nav_profile.Animated = true;
-            this.nav_profile.AnimationHoverSpeed = 0.07F;
-            this.nav_profile.AnimationSpeed = 0.03F;
-            this.nav_profile.BaseColor = System.Drawing.Color.White;
-            this.nav_profile.BorderColor = System.Drawing.Color.Black;
-            this.nav_profile.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.nav_profile.CheckedBaseColor = System.Drawing.Color.White;
-            this.nav_profile.CheckedBorderColor = System.Drawing.Color.Black;
-            this.nav_profile.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_profile.CheckedImage = null;
-            this.nav_profile.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
-            this.nav_profile.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.nav_profile.Dock = System.Windows.Forms.DockStyle.Left;
-            this.nav_profile.FocusedColor = System.Drawing.Color.Empty;
-            this.nav_profile.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.nav_profile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_profile.Image = null;
-            this.nav_profile.ImageSize = new System.Drawing.Size(20, 20);
-            this.nav_profile.LineBottom = 4;
-            this.nav_profile.LineColor = System.Drawing.Color.White;
-            this.nav_profile.Location = new System.Drawing.Point(112, 0);
-            this.nav_profile.Name = "nav_profile";
-            this.nav_profile.OnHoverBaseColor = System.Drawing.Color.White;
-            this.nav_profile.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.nav_profile.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_profile.OnHoverImage = null;
-            this.nav_profile.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
-            this.nav_profile.OnPressedColor = System.Drawing.Color.Black;
-            this.nav_profile.OnPressedDepth = 0;
-            this.nav_profile.Size = new System.Drawing.Size(112, 45);
-            this.nav_profile.TabIndex = 1;
-            this.nav_profile.Text = "Profile";
-            this.nav_profile.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // nav_home
             // 
@@ -257,7 +151,7 @@ namespace Aqua_Desk_Sync
             this.nav_home.CheckedBaseColor = System.Drawing.Color.White;
             this.nav_home.CheckedBorderColor = System.Drawing.Color.Black;
             this.nav_home.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_home.CheckedImage = null;
+            this.nav_home.CheckedImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
             this.nav_home.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
             this.nav_home.DialogResult = System.Windows.Forms.DialogResult.None;
             this.nav_home.Dock = System.Windows.Forms.DockStyle.Left;
@@ -273,7 +167,7 @@ namespace Aqua_Desk_Sync
             this.nav_home.OnHoverBaseColor = System.Drawing.Color.White;
             this.nav_home.OnHoverBorderColor = System.Drawing.Color.Black;
             this.nav_home.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.nav_home.OnHoverImage = null;
+            this.nav_home.OnHoverImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
             this.nav_home.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
             this.nav_home.OnPressedColor = System.Drawing.Color.Black;
             this.nav_home.OnPressedDepth = 0;
@@ -284,6 +178,7 @@ namespace Aqua_Desk_Sync
             // 
             // gunaPictureBox4
             // 
+            this.gunaPictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.gunaPictureBox4.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox4.Image = global::Aqua_Desk_Sync.Properties.Resources.icons8_macos_minimize_30px;
             this.gunaPictureBox4.Location = new System.Drawing.Point(811, 10);
@@ -295,6 +190,7 @@ namespace Aqua_Desk_Sync
             // 
             // gunaPictureBox2
             // 
+            this.gunaPictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox2.Image = global::Aqua_Desk_Sync.Properties.Resources.icons8_cancel_30px;
             this.gunaPictureBox2.Location = new System.Drawing.Point(847, 10);
@@ -306,9 +202,10 @@ namespace Aqua_Desk_Sync
             // 
             // gunaPictureBox3
             // 
+            this.gunaPictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.gunaPictureBox3.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox3.Image")));
-            this.gunaPictureBox3.Location = new System.Drawing.Point(778, 19);
+            this.gunaPictureBox3.Location = new System.Drawing.Point(793, 19);
             this.gunaPictureBox3.Name = "gunaPictureBox3";
             this.gunaPictureBox3.Size = new System.Drawing.Size(12, 12);
             this.gunaPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -317,9 +214,10 @@ namespace Aqua_Desk_Sync
             // 
             // GunaCirclePictureBox1
             // 
+            this.GunaCirclePictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.White;
             this.GunaCirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("GunaCirclePictureBox1.Image")));
-            this.GunaCirclePictureBox1.Location = new System.Drawing.Point(740, 9);
+            this.GunaCirclePictureBox1.Location = new System.Drawing.Point(755, 9);
             this.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1";
             this.GunaCirclePictureBox1.Size = new System.Drawing.Size(32, 32);
             this.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -337,6 +235,114 @@ namespace Aqua_Desk_Sync
             this.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.GunaPictureBox1.TabIndex = 0;
             this.GunaPictureBox1.TabStop = false;
+            // 
+            // gunaAdvenceButton1
+            // 
+            this.gunaAdvenceButton1.Animated = true;
+            this.gunaAdvenceButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaAdvenceButton1.AnimationSpeed = 0.03F;
+            this.gunaAdvenceButton1.BaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton1.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.gunaAdvenceButton1.CheckedBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.CheckedBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton1.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton1.CheckedImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
+            this.gunaAdvenceButton1.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
+            this.gunaAdvenceButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaAdvenceButton1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaAdvenceButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaAdvenceButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.gunaAdvenceButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton1.Image = null;
+            this.gunaAdvenceButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaAdvenceButton1.LineBottom = 4;
+            this.gunaAdvenceButton1.LineColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.Location = new System.Drawing.Point(112, 0);
+            this.gunaAdvenceButton1.Name = "gunaAdvenceButton1";
+            this.gunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton1.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton1.OnHoverImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
+            this.gunaAdvenceButton1.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
+            this.gunaAdvenceButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton1.OnPressedDepth = 0;
+            this.gunaAdvenceButton1.Size = new System.Drawing.Size(112, 45);
+            this.gunaAdvenceButton1.TabIndex = 1;
+            this.gunaAdvenceButton1.Text = "Settings";
+            this.gunaAdvenceButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // gunaAdvenceButton2
+            // 
+            this.gunaAdvenceButton2.Animated = true;
+            this.gunaAdvenceButton2.AnimationHoverSpeed = 0.07F;
+            this.gunaAdvenceButton2.AnimationSpeed = 0.03F;
+            this.gunaAdvenceButton2.BaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.BorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.gunaAdvenceButton2.CheckedBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.CheckedBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton2.CheckedImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
+            this.gunaAdvenceButton2.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
+            this.gunaAdvenceButton2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaAdvenceButton2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaAdvenceButton2.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaAdvenceButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.gunaAdvenceButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton2.Image = null;
+            this.gunaAdvenceButton2.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaAdvenceButton2.LineBottom = 4;
+            this.gunaAdvenceButton2.LineColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.Location = new System.Drawing.Point(224, 0);
+            this.gunaAdvenceButton2.Name = "gunaAdvenceButton2";
+            this.gunaAdvenceButton2.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton2.OnHoverImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
+            this.gunaAdvenceButton2.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
+            this.gunaAdvenceButton2.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.OnPressedDepth = 0;
+            this.gunaAdvenceButton2.Size = new System.Drawing.Size(112, 45);
+            this.gunaAdvenceButton2.TabIndex = 2;
+            this.gunaAdvenceButton2.Text = "Help";
+            this.gunaAdvenceButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // gunaAdvenceButton3
+            // 
+            this.gunaAdvenceButton3.Animated = true;
+            this.gunaAdvenceButton3.AnimationHoverSpeed = 0.07F;
+            this.gunaAdvenceButton3.AnimationSpeed = 0.03F;
+            this.gunaAdvenceButton3.BaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton3.BorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton3.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.gunaAdvenceButton3.CheckedBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton3.CheckedBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton3.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton3.CheckedImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
+            this.gunaAdvenceButton3.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
+            this.gunaAdvenceButton3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaAdvenceButton3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaAdvenceButton3.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaAdvenceButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.gunaAdvenceButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton3.Image = null;
+            this.gunaAdvenceButton3.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaAdvenceButton3.LineBottom = 4;
+            this.gunaAdvenceButton3.LineColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton3.Location = new System.Drawing.Point(336, 0);
+            this.gunaAdvenceButton3.Name = "gunaAdvenceButton3";
+            this.gunaAdvenceButton3.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton3.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton3.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.gunaAdvenceButton3.OnHoverImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
+            this.gunaAdvenceButton3.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
+            this.gunaAdvenceButton3.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton3.OnPressedDepth = 0;
+            this.gunaAdvenceButton3.Size = new System.Drawing.Size(112, 45);
+            this.gunaAdvenceButton3.TabIndex = 3;
+            this.gunaAdvenceButton3.Text = "About";
+            this.gunaAdvenceButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Sync
             // 
@@ -372,12 +378,12 @@ namespace Aqua_Desk_Sync
         internal Guna.UI.WinForms.GunaPictureBox GunaPictureBox1;
         internal Guna.UI.WinForms.GunaDragControl GunaDragControl1;
         internal Guna.UI.WinForms.GunaPanel GunaPanel2;
-        internal Guna.UI.WinForms.GunaAdvenceButton nav_settings;
-        internal Guna.UI.WinForms.GunaAdvenceButton nav_history;
-        internal Guna.UI.WinForms.GunaAdvenceButton nav_profile;
         internal Guna.UI.WinForms.GunaAdvenceButton nav_home;
         internal Guna.UI.WinForms.GunaPictureBox gunaPictureBox3;
         internal Guna.UI.WinForms.GunaPictureBox gunaPictureBox4;
         internal Guna.UI.WinForms.GunaPictureBox gunaPictureBox2;
+        internal Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton3;
+        internal Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
+        internal Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton1;
     }
 }

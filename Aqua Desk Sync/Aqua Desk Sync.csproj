@@ -100,5 +100,11 @@
   <ItemGroup>
     <None Include="Resources\icons8_macos_minimize_30px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_sync_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_sync_10px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
