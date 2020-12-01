@@ -16,7 +16,7 @@ namespace Aqua_Desk_Sync
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Sync());
         }
     }
 }
