@@ -41,25 +41,28 @@ namespace Aqua_Desk_Sync
             this.nav_history = new Guna.UI.WinForms.GunaAdvenceButton();
             this.nav_profile = new Guna.UI.WinForms.GunaAdvenceButton();
             this.nav_home = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.GunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaPictureBox4 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaPictureBox3 = new Guna.UI.WinForms.GunaPictureBox();
             this.GunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
             this.GunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
-            this.gunaPictureBox3 = new Guna.UI.WinForms.GunaPictureBox();
             this.GunaPanel1.SuspendLayout();
             this.GunaPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.GunaPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GunaCirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GunaPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // GunaPanel1
             // 
             this.GunaPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.GunaPanel1.Controls.Add(this.gunaPictureBox4);
+            this.GunaPanel1.Controls.Add(this.gunaPictureBox2);
             this.GunaPanel1.Controls.Add(this.GunaButton1);
             this.GunaPanel1.Controls.Add(this.GunaVSeparator1);
             this.GunaPanel1.Controls.Add(this.gunaPictureBox3);
-            this.GunaPanel1.Controls.Add(this.GunaPictureBox2);
             this.GunaPanel1.Controls.Add(this.GunaCirclePictureBox1);
             this.GunaPanel1.Controls.Add(this.lblAppName);
             this.GunaPanel1.Controls.Add(this.GunaPictureBox1);
@@ -84,7 +87,7 @@ namespace Aqua_Desk_Sync
             this.GunaButton1.ForeColor = System.Drawing.Color.White;
             this.GunaButton1.Image = null;
             this.GunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.GunaButton1.Location = new System.Drawing.Point(632, 8);
+            this.GunaButton1.Location = new System.Drawing.Point(632, 10);
             this.GunaButton1.Name = "GunaButton1";
             this.GunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
             this.GunaButton1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
@@ -101,7 +104,7 @@ namespace Aqua_Desk_Sync
             // 
             this.GunaVSeparator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.GunaVSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(80)))), ((int)(((byte)(108)))));
-            this.GunaVSeparator1.Location = new System.Drawing.Point(724, 8);
+            this.GunaVSeparator1.Location = new System.Drawing.Point(724, 9);
             this.GunaVSeparator1.Name = "GunaVSeparator1";
             this.GunaVSeparator1.Size = new System.Drawing.Size(10, 32);
             this.GunaVSeparator1.TabIndex = 4;
@@ -111,7 +114,7 @@ namespace Aqua_Desk_Sync
             this.lblAppName.AutoSize = true;
             this.lblAppName.Font = new System.Drawing.Font("Segoe UI Semibold", 12F);
             this.lblAppName.ForeColor = System.Drawing.Color.White;
-            this.lblAppName.Location = new System.Drawing.Point(48, 17);
+            this.lblAppName.Location = new System.Drawing.Point(48, 15);
             this.lblAppName.Name = "lblAppName";
             this.lblAppName.Size = new System.Drawing.Size(130, 21);
             this.lblAppName.TabIndex = 1;
@@ -279,38 +282,27 @@ namespace Aqua_Desk_Sync
             this.nav_home.Text = "Sync";
             this.nav_home.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // GunaPictureBox2
+            // gunaPictureBox4
             // 
-            this.GunaPictureBox2.BaseColor = System.Drawing.Color.White;
-            this.GunaPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("GunaPictureBox2.Image")));
-            this.GunaPictureBox2.Location = new System.Drawing.Point(856, 22);
-            this.GunaPictureBox2.Name = "GunaPictureBox2";
-            this.GunaPictureBox2.Size = new System.Drawing.Size(12, 12);
-            this.GunaPictureBox2.TabIndex = 3;
-            this.GunaPictureBox2.TabStop = false;
+            this.gunaPictureBox4.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox4.Image = global::Aqua_Desk_Sync.Properties.Resources.icons8_macos_minimize_30px;
+            this.gunaPictureBox4.Location = new System.Drawing.Point(811, 10);
+            this.gunaPictureBox4.Name = "gunaPictureBox4";
+            this.gunaPictureBox4.Size = new System.Drawing.Size(30, 30);
+            this.gunaPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.gunaPictureBox4.TabIndex = 6;
+            this.gunaPictureBox4.TabStop = false;
             // 
-            // GunaCirclePictureBox1
+            // gunaPictureBox2
             // 
-            this.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.White;
-            this.GunaCirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("GunaCirclePictureBox1.Image")));
-            this.GunaCirclePictureBox1.Location = new System.Drawing.Point(740, 8);
-            this.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1";
-            this.GunaCirclePictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GunaCirclePictureBox1.TabIndex = 2;
-            this.GunaCirclePictureBox1.TabStop = false;
-            this.GunaCirclePictureBox1.UseTransfarantBackground = false;
-            // 
-            // GunaPictureBox1
-            // 
-            this.GunaPictureBox1.BaseColor = System.Drawing.Color.White;
-            this.GunaPictureBox1.Image = global::Aqua_Desk_Sync.Properties.Resources.Logo;
-            this.GunaPictureBox1.Location = new System.Drawing.Point(12, 8);
-            this.GunaPictureBox1.Name = "GunaPictureBox1";
-            this.GunaPictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.GunaPictureBox1.TabIndex = 0;
-            this.GunaPictureBox1.TabStop = false;
+            this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox2.Image = global::Aqua_Desk_Sync.Properties.Resources.icons8_cancel_30px;
+            this.gunaPictureBox2.Location = new System.Drawing.Point(847, 10);
+            this.gunaPictureBox2.Name = "gunaPictureBox2";
+            this.gunaPictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.gunaPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.gunaPictureBox2.TabIndex = 6;
+            this.gunaPictureBox2.TabStop = false;
             // 
             // gunaPictureBox3
             // 
@@ -322,6 +314,29 @@ namespace Aqua_Desk_Sync
             this.gunaPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.gunaPictureBox3.TabIndex = 3;
             this.gunaPictureBox3.TabStop = false;
+            // 
+            // GunaCirclePictureBox1
+            // 
+            this.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.White;
+            this.GunaCirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("GunaCirclePictureBox1.Image")));
+            this.GunaCirclePictureBox1.Location = new System.Drawing.Point(740, 9);
+            this.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1";
+            this.GunaCirclePictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.GunaCirclePictureBox1.TabIndex = 2;
+            this.GunaCirclePictureBox1.TabStop = false;
+            this.GunaCirclePictureBox1.UseTransfarantBackground = false;
+            // 
+            // GunaPictureBox1
+            // 
+            this.GunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.GunaPictureBox1.Image = global::Aqua_Desk_Sync.Properties.Resources.Logo;
+            this.GunaPictureBox1.Location = new System.Drawing.Point(12, 10);
+            this.GunaPictureBox1.Name = "GunaPictureBox1";
+            this.GunaPictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.GunaPictureBox1.TabIndex = 0;
+            this.GunaPictureBox1.TabStop = false;
             // 
             // Sync
             // 
@@ -338,10 +353,11 @@ namespace Aqua_Desk_Sync
             this.GunaPanel1.ResumeLayout(false);
             this.GunaPanel1.PerformLayout();
             this.GunaPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.GunaPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GunaCirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GunaPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -351,7 +367,6 @@ namespace Aqua_Desk_Sync
         internal Guna.UI.WinForms.GunaPanel GunaPanel1;
         internal Guna.UI.WinForms.GunaButton GunaButton1;
         internal Guna.UI.WinForms.GunaVSeparator GunaVSeparator1;
-        internal Guna.UI.WinForms.GunaPictureBox GunaPictureBox2;
         internal Guna.UI.WinForms.GunaCirclePictureBox GunaCirclePictureBox1;
         internal Guna.UI.WinForms.GunaLabel lblAppName;
         internal Guna.UI.WinForms.GunaPictureBox GunaPictureBox1;
@@ -362,5 +377,7 @@ namespace Aqua_Desk_Sync
         internal Guna.UI.WinForms.GunaAdvenceButton nav_profile;
         internal Guna.UI.WinForms.GunaAdvenceButton nav_home;
         internal Guna.UI.WinForms.GunaPictureBox gunaPictureBox3;
+        internal Guna.UI.WinForms.GunaPictureBox gunaPictureBox4;
+        internal Guna.UI.WinForms.GunaPictureBox gunaPictureBox2;
     }
 }
