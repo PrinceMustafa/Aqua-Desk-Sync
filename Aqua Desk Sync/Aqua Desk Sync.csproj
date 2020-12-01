@@ -106,5 +106,17 @@
   <ItemGroup>
     <None Include="Resources\icons8_sync_10px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_settings_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_headset_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_info_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_about_30px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

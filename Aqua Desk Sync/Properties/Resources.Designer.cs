@@ -73,6 +73,16 @@ namespace Aqua_Desk_Sync.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_about_30px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_about_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_cancel_30px {
             get {
                 object obj = ResourceManager.GetObject("icons8_cancel_30px", resourceCulture);
@@ -83,9 +93,39 @@ namespace Aqua_Desk_Sync.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_headset_30px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_headset_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_info_30px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_info_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_macos_minimize_30px {
             get {
                 object obj = ResourceManager.GetObject("icons8_macos_minimize_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_settings_30px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_settings_30px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

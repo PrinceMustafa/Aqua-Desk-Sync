@@ -21,5 +21,10 @@ namespace Aqua_Desk_Sync
         {
 
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
