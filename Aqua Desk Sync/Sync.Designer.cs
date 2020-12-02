@@ -31,7 +31,7 @@ namespace Aqua_Desk_Sync
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sync));
-            this.GunaPanel1 = new Guna.UI.WinForms.GunaPanel();
+            this.pnlNavigationTop = new Guna.UI.WinForms.GunaPanel();
             this.btnMinimize = new Guna.UI.WinForms.GunaPictureBox();
             this.btnClose = new Guna.UI.WinForms.GunaPictureBox();
             this.GunaButton1 = new Guna.UI.WinForms.GunaButton();
@@ -41,36 +41,37 @@ namespace Aqua_Desk_Sync
             this.lblAppName = new Guna.UI.WinForms.GunaLabel();
             this.GunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.DC = new Guna.UI.WinForms.GunaDragControl(this.components);
-            this.GunaPanel2 = new Guna.UI.WinForms.GunaPanel();
+            this.pnlTab = new Guna.UI.WinForms.GunaPanel();
             this.gunaAdvenceButton3 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.nav_home = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.GunaPanel1.SuspendLayout();
+            this.pnlScreen = new Guna.UI.WinForms.GunaPanel();
+            this.pnlNavigationTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GunaPictureBox1)).BeginInit();
-            this.GunaPanel2.SuspendLayout();
+            this.pnlTab.SuspendLayout();
             this.SuspendLayout();
             // 
-            // GunaPanel1
+            // pnlNavigationTop
             // 
-            this.GunaPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.GunaPanel1.Controls.Add(this.btnMinimize);
-            this.GunaPanel1.Controls.Add(this.btnClose);
-            this.GunaPanel1.Controls.Add(this.GunaButton1);
-            this.GunaPanel1.Controls.Add(this.GunaVSeparator1);
-            this.GunaPanel1.Controls.Add(this.gunaPictureBox3);
-            this.GunaPanel1.Controls.Add(this.PBUser);
-            this.GunaPanel1.Controls.Add(this.lblAppName);
-            this.GunaPanel1.Controls.Add(this.GunaPictureBox1);
-            this.GunaPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.GunaPanel1.Location = new System.Drawing.Point(0, 0);
-            this.GunaPanel1.Name = "GunaPanel1";
-            this.GunaPanel1.Size = new System.Drawing.Size(880, 55);
-            this.GunaPanel1.TabIndex = 2;
+            this.pnlNavigationTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.pnlNavigationTop.Controls.Add(this.btnMinimize);
+            this.pnlNavigationTop.Controls.Add(this.btnClose);
+            this.pnlNavigationTop.Controls.Add(this.GunaButton1);
+            this.pnlNavigationTop.Controls.Add(this.GunaVSeparator1);
+            this.pnlNavigationTop.Controls.Add(this.gunaPictureBox3);
+            this.pnlNavigationTop.Controls.Add(this.PBUser);
+            this.pnlNavigationTop.Controls.Add(this.lblAppName);
+            this.pnlNavigationTop.Controls.Add(this.GunaPictureBox1);
+            this.pnlNavigationTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlNavigationTop.Location = new System.Drawing.Point(0, 0);
+            this.pnlNavigationTop.Name = "pnlNavigationTop";
+            this.pnlNavigationTop.Size = new System.Drawing.Size(880, 55);
+            this.pnlNavigationTop.TabIndex = 2;
             // 
             // btnMinimize
             // 
@@ -161,6 +162,7 @@ namespace Aqua_Desk_Sync
             this.PBUser.TabIndex = 2;
             this.PBUser.TabStop = false;
             this.PBUser.UseTransfarantBackground = false;
+            this.PBUser.Click += new System.EventHandler(this.PBUser_Click);
             // 
             // lblAppName
             // 
@@ -186,20 +188,20 @@ namespace Aqua_Desk_Sync
             // 
             // DC
             // 
-            this.DC.TargetControl = this.GunaPanel1;
+            this.DC.TargetControl = this.pnlNavigationTop;
             // 
-            // GunaPanel2
+            // pnlTab
             // 
-            this.GunaPanel2.BackColor = System.Drawing.Color.White;
-            this.GunaPanel2.Controls.Add(this.gunaAdvenceButton3);
-            this.GunaPanel2.Controls.Add(this.gunaAdvenceButton2);
-            this.GunaPanel2.Controls.Add(this.gunaAdvenceButton1);
-            this.GunaPanel2.Controls.Add(this.nav_home);
-            this.GunaPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.GunaPanel2.Location = new System.Drawing.Point(0, 55);
-            this.GunaPanel2.Name = "GunaPanel2";
-            this.GunaPanel2.Size = new System.Drawing.Size(880, 45);
-            this.GunaPanel2.TabIndex = 3;
+            this.pnlTab.BackColor = System.Drawing.Color.White;
+            this.pnlTab.Controls.Add(this.gunaAdvenceButton3);
+            this.pnlTab.Controls.Add(this.gunaAdvenceButton2);
+            this.pnlTab.Controls.Add(this.gunaAdvenceButton1);
+            this.pnlTab.Controls.Add(this.nav_home);
+            this.pnlTab.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTab.Location = new System.Drawing.Point(0, 55);
+            this.pnlTab.Name = "pnlTab";
+            this.pnlTab.Size = new System.Drawing.Size(880, 45);
+            this.pnlTab.TabIndex = 3;
             // 
             // gunaAdvenceButton3
             // 
@@ -229,7 +231,7 @@ namespace Aqua_Desk_Sync
             this.gunaAdvenceButton3.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaAdvenceButton3.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaAdvenceButton3.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
-            this.gunaAdvenceButton3.OnHoverImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_sync_30px;
+            this.gunaAdvenceButton3.OnHoverImage = global::Aqua_Desk_Sync.Properties.Resources.icons8_about_30px;
             this.gunaAdvenceButton3.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(87)))), ((int)(((byte)(124)))));
             this.gunaAdvenceButton3.OnPressedColor = System.Drawing.Color.Black;
             this.gunaAdvenceButton3.OnPressedDepth = 3;
@@ -348,40 +350,50 @@ namespace Aqua_Desk_Sync
             this.nav_home.Text = "Sync";
             this.nav_home.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // pnlScreen
+            // 
+            this.pnlScreen.BackColor = System.Drawing.Color.Transparent;
+            this.pnlScreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlScreen.Location = new System.Drawing.Point(0, 100);
+            this.pnlScreen.Name = "pnlScreen";
+            this.pnlScreen.Size = new System.Drawing.Size(880, 530);
+            this.pnlScreen.TabIndex = 4;
+            // 
             // Sync
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 630);
-            this.Controls.Add(this.GunaPanel2);
-            this.Controls.Add(this.GunaPanel1);
+            this.Controls.Add(this.pnlScreen);
+            this.Controls.Add(this.pnlTab);
+            this.Controls.Add(this.pnlNavigationTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Sync";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sync";
             this.Load += new System.EventHandler(this.Sync_Load);
-            this.GunaPanel1.ResumeLayout(false);
-            this.GunaPanel1.PerformLayout();
+            this.pnlNavigationTop.ResumeLayout(false);
+            this.pnlNavigationTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GunaPictureBox1)).EndInit();
-            this.GunaPanel2.ResumeLayout(false);
+            this.pnlTab.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        internal Guna.UI.WinForms.GunaPanel GunaPanel1;
+        internal Guna.UI.WinForms.GunaPanel pnlNavigationTop;
         internal Guna.UI.WinForms.GunaButton GunaButton1;
         internal Guna.UI.WinForms.GunaVSeparator GunaVSeparator1;
         internal Guna.UI.WinForms.GunaCirclePictureBox PBUser;
         internal Guna.UI.WinForms.GunaLabel lblAppName;
         internal Guna.UI.WinForms.GunaPictureBox GunaPictureBox1;
         internal Guna.UI.WinForms.GunaDragControl DC;
-        internal Guna.UI.WinForms.GunaPanel GunaPanel2;
+        internal Guna.UI.WinForms.GunaPanel pnlTab;
         internal Guna.UI.WinForms.GunaAdvenceButton nav_home;
         internal Guna.UI.WinForms.GunaPictureBox gunaPictureBox3;
         internal Guna.UI.WinForms.GunaPictureBox btnMinimize;
@@ -389,5 +401,6 @@ namespace Aqua_Desk_Sync
         internal Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton3;
         internal Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
         internal Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton1;
+        internal Guna.UI.WinForms.GunaPanel pnlScreen;
     }
 }

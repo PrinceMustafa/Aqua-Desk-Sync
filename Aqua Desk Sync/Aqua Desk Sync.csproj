@@ -62,6 +62,12 @@
     <Compile Include="Sync.Designer.cs">
       <DependentUpon>Sync.cs</DependentUpon>
     </Compile>
+    <Compile Include="Syncronization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Syncronization.Designer.cs">
+      <DependentUpon>Syncronization.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

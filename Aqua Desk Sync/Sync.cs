@@ -31,5 +31,10 @@ namespace Aqua_Desk_Sync
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void PBUser_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
