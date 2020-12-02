@@ -1,7 +1,7 @@
 ﻿
 namespace Aqua_Desk_Sync
 {
-    partial class Syncronization
+    partial class About
     {
         /// <summary>
         /// Required designer variable.
@@ -31,15 +31,14 @@ namespace Aqua_Desk_Sync
         {
             this.SuspendLayout();
             // 
-            // Syncronization
+            // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 530);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Syncronization";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Syncronization";
+            this.Name = "About";
+            this.Text = "About";
             this.ResumeLayout(false);
 
         }
